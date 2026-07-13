@@ -4,6 +4,8 @@ import { ContentContainer } from "./ContentContainer";
 import { Intro } from "./components/Introduction/intro";
 import {Learnmore} from './components/LearnMore/Learnmore'
 import {MoreInfo} from './components/MoreCoffeeInfo/MoreInfo'
+import {Demo} from './components/AppDemo/Demo'
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,7 @@ function App() {
         <Intro />
         <Learnmore />
         <MoreInfo />
+        <Demo />
       </ContentContainer>
     </div>
   );

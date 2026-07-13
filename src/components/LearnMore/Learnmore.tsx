@@ -13,8 +13,8 @@ export const Learnmore = () => {
             <Text variant='h3'>Americano</Text>
             <Text variant='p'>100% Natural Arabica or Robusta, 30 ml cup</Text>
             <div id='two-icons-bottom'>
-                <img src={cart} alt='Shopping Cart Icon' id='shopping-cart'/>
-                <img src={like} alt='Like or Heart Icon' id='like'/>
+                <img src={cart} alt='Shopping Cart Icon' className='shopping-cart'/>
+                <img src={like} alt='Like or Heart Icon' className='like'/>
             </div>
             <div id='price'>
                     <button type="button">$2.50</button>
@@ -26,8 +26,8 @@ export const Learnmore = () => {
             <Text variant='h3'>Cappuccino</Text>
             <Text variant='p'>Coffee 50%, milk 50%, 280ml</Text>
             <div id='two-icons-bottom'>
-                <img src={cart} alt='Shopping Cart Icon' id='shopping-cart'/>
-                <img src={like} alt='Like or Heart Icon' id='like'/>
+                <img src={cart} alt='Shopping Cart Icon' className='shopping-cart'/>
+                <img src={like} alt='Like or Heart Icon' className='like'/>
             </div>
             <div id='price'>
                     <button type="button">$2.50</button>
