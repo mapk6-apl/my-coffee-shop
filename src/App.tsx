@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { ContentContainer } from "./ContentContainer";
 import { Intro } from "./components/Introduction/intro";
 import {Learnmore} from './components/LearnMore/Learnmore'
-
+import {MoreInfo} from './components/MoreCoffeeInfo/MoreInfo'
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
         <Navbar />
         <Intro />
         <Learnmore />
+        <MoreInfo />
       </ContentContainer>
     </div>
   );

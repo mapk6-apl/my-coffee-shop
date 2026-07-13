@@ -8,12 +8,6 @@ import like from '../../assets/heart.png'
 export const Learnmore = () => {
   return (
     <div className='learn-more-content'>
-        <div id='menus'>
-            <div id='cofee-menu'>
-                
-            </div>
-        </div>
-
         <div id='americano-container'>
             <img src={americano} alt='Americano Info' id='americano'/>
             <Text variant='h3'>Americano</Text>
@@ -24,14 +18,29 @@ export const Learnmore = () => {
             </div>
             <div id='price'>
                     <button type="button">$2.50</button>
-                </div>
+            </div>
+        </div>
+
+        <div id='cappuccino-container'>
+            <img src={cappuccino} alt='Cappuccino Info' id='cappuccino'/>
+            <Text variant='h3'>Cappuccino</Text>
+            <Text variant='p'>Coffee 50%, milk 50%, 280ml</Text>
+            <div id='two-icons-bottom'>
+                <img src={cart} alt='Shopping Cart Icon' id='shopping-cart'/>
+                <img src={like} alt='Like or Heart Icon' id='like'/>
+            </div>
+            <div id='price'>
+                    <button type="button">$2.50</button>
+            </div>
+        </div>
+
+        <div id='learn-more-info'>
+            <Text variant='h2'>MJ's Coffee Shop</Text>
+            <Text variant='p'>Welcome to our coffee shop. Having the best in town, feel free to browse through our page to learn more about us.</Text>
+            <div id='learn-more'>
+                    <button type="button">Learn More</button>
+            </div>
         </div>
     </div>
   )
 }
-
-/*
-<div id='cappuccino'>
-<img src={cappuccino} alt='Cappuccino Info' id='cappuccino' />
-</div>
-*/
