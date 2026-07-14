@@ -21,8 +21,7 @@ export const Navbar = () => {
                     <a href="#">Coffee Menu</a>
                     <a href="#">About Us</a>
                     <a href="#">Contact Us</a>
-
-                    <Text>Coffee Shop</Text>
+                    <a href="#" id='coffee-shop'>Coffee Shop</a>
                 </div>
             </nav>
     )

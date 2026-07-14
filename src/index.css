@@ -1,4 +1,6 @@
-body {}
+body {
+  font-family: helvetica;
+}
 
 body::before {
   content: "";
@@ -76,7 +78,7 @@ body::before {
 
 .intro-content {
   display: flex;
-  margin-top: 80px;
+  margin-top: 100px;
   justify-content: space-between;
   width: 100%;
   gap: 20px;
@@ -394,6 +396,7 @@ body::before {
   cursor: pointer;
   height: 45px;
   width: 180px;
+
 }
 
 #big-menu-container {
@@ -775,7 +778,7 @@ body::before {
 #reservations-2 {
   display: flex;
   flex-direction: row;
-  gap: 700px;
+  gap: 600px;
 }
 
 #reservations-2 button {
