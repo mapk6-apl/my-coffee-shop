@@ -8,7 +8,7 @@ export const Navbar = () => {
             <nav className="navbar-container">
                 <div className="navbar-left">
                     <div id="logo-text">
-                        <Text variant="h2" style={{ margin: 0 , display: 'inline-block'}}>Flavored</Text>
+                        <Text variant="h2" style={{ margin: 0 }}>Flavored</Text>
                         <img src={coffeeLogo} alt="Coffee Shop Logo" id='logo-image' />
                     </div>
                     <div id='slogan'>
@@ -21,7 +21,8 @@ export const Navbar = () => {
                     <a href="#">Coffee Menu</a>
                     <a href="#">About Us</a>
                     <a href="#">Contact Us</a>
-                    <a href="#">Coffee Shop</a>
+
+                    <Text>Coffee Shop</Text>
                 </div>
             </nav>
     )

@@ -5,6 +5,8 @@ import { Intro } from "./components/Introduction/intro";
 import {Learnmore} from './components/LearnMore/Learnmore'
 import {MoreInfo} from './components/MoreCoffeeInfo/MoreInfo'
 import {Demo} from './components/AppDemo/Demo'
+import {Reserve} from './components/Reservations/Reserve'
+import {Footer} from './components/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Learnmore />
         <MoreInfo />
         <Demo />
+        <Reserve /> 
+        <Footer />
       </ContentContainer>
     </div>
   );

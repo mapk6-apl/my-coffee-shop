@@ -40,6 +40,18 @@ body::before {
   text-underline-offset: 10px;
 }
 
+#coffee-shop{
+  border: solid 5px #260D0B;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 14px;
+  background-color: #260D0B;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  width: 180px;
+}
+
 #logo-text {
   display: flex;
   align-items: center;
@@ -59,6 +71,7 @@ body::before {
   object-fit: contain;
   margin-left: -4px;
   margin-top: -6px;
+  filter: invert(8%) sepia(50%) saturate(600%) hue-rotate(337deg) brightness(99%) contrast(99%);
 }
 
 .intro-content {
@@ -130,11 +143,13 @@ body::before {
   width: 32px;
   height: 32px;
   object-fit: contain;
+  filter: invert(8%) sepia(50%) saturate(600%) hue-rotate(337deg) brightness(99%) contrast(99%);
 }
 
 .learn-more-content {
   display: flex;
   gap: 25px;
+  margin-top: 20px;
 }
 
 #two-icons-bottom {
@@ -331,8 +346,8 @@ body::before {
   object-fit: cover;
   align-content: center;
   position: absolute;
-  right: 250px;
-  bottom: -220px;
+  right: 220px;
+  bottom: -320px;
 }
 
 .app-demo {
@@ -369,7 +384,7 @@ body::before {
   left: 70px;
 }*/
 
-#view-menu-button{
+#view-menu-button {
   border: solid 5px #260D0B;
   border-radius: 30px;
   padding: 5px 30px;
@@ -526,18 +541,79 @@ body::before {
   padding: 6px;
   width: 12px;
   height: 12px;
-  margin: 20px;
   object-fit: contain;
   cursor: pointer;
 }
 
-#price-2 {
+.two-icons-bottom-2 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  gap: 5px;
+  margin-top: auto;
+  margin-bottom: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.two-icons-bottom-2 img {
+  display: flex;
+  width: 14px;
+  height: 14px;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.shopping-cart-3 {
+  background-color: rgba(225, 212, 212, 0.7);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 6px;
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.like-3 {
+  background-color: rgba(225, 212, 212, 0.7);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 6px;
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.two-icons-bottom-3 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.two-icons-bottom-3 img {
+  width: 14px;
+  height: 14px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.price-2 {
   position: absolute;
   bottom: -5px;
   left: 20px;
 }
 
-#price-2 button {
+.price-2 button {
   border: solid 5px #260D0B;
   border-radius: 15px;
   padding: 5px 30px;
@@ -547,7 +623,7 @@ body::before {
   cursor: pointer;
   position: absolute;
   bottom: -20px;
-  left: 70px;
+  left: 30px;
 }
 
 .more-info-2 {
@@ -602,7 +678,7 @@ body::before {
   flex-direction: row;
 }
 
-#total-price p{
+#total-price p {
   display: flex;
   background-color: rgba(225, 212, 212, 0.7);
   border: solid 1px transparent;
@@ -634,7 +710,7 @@ body::before {
   border-radius: 30px;
   height: 45px;
   width: 200px;
-  color:#fff;
+  color: #fff;
   align-items: center;
   padding-left: 50px;
   margin-left: 90px;
@@ -653,7 +729,7 @@ body::before {
   cursor: pointer;
 }
 
-.add-icon{
+.add-icon {
   background-color: rgba(225, 212, 212, 0.7);
   border: solid 1px transparent;
   border-radius: 50px;
@@ -667,8 +743,9 @@ body::before {
   right: 330px;
 }
 
-.apple-icon, .google-icon {
-  background-color: rgba(225, 212, 212, 0.7);
+.apple-icon,
+.google-icon {
+  background-color: rgba(255, 255, 255, 0.7);
   border: solid 1px transparent;
   border-radius: 10px;
   padding: 6px;
@@ -677,31 +754,89 @@ body::before {
   margin: 20px;
   object-fit: contain;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
 }
 
-#app-availability{
+#app-availability {
   padding-top: 500px;
 }
 
-/*
-#two-icons-bottom-2 {
-  display: flex;
-  width: 20px;
-  height: 20px;
-  gap: 5px;
-  margin-top: auto;
-  margin-bottom: 25px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
+.reservations{
+  margin-top: 100px;
 }
 
-#two-icons-bottom-2 img {
-  display: flex;
-  width: 14px;
-  height: 14px;
-  gap: 15px;
-  cursor: pointer;
+.reservations h3 {
+  color: #fff;
+  margin-bottom: -15px;
+  font-size: 14px;
 }
-  */
+
+#reservations-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 700px;
+}
+
+#reservations-2 button {
+  border: solid 5px #260D0B;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #260D0B;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  width: 180px;
+}
+
+.footer-content {
+  position: relative;
+  margin-top: 80px;
+}
+
+#spilled-beans {
+  position: absolute;
+  width: 200px;
+  bottom: -120px;
+  left: -80px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 70px;
+}
+
+#logo-text-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+#slogan-2 {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: -30px;
+  color: #fff;
+}
+
+#logo-image-2 {
+  width: 40px;
+  height: 25px;
+  object-fit: contain;
+  margin-left: -4px;
+  margin-top: -6px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(104%) contrast(102%);
+}
+
+#horizontal-divider{
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}

@@ -59,9 +59,9 @@ export const Demo = () => {
                         <img src={cappuccino} alt='Cappuccino Info' id='cappuccino-2' />
                         <Text variant='h3'>Cappuccino</Text>
                         <Text variant='p'>Coffee 50%, milk 50%, 280ml</Text>
-                        <div className='two-icons-bottom-2'>
-                            <img src={cart} alt='Shopping Cart Icon' className='shopping-cart-2' />
-                            <img src={like} alt='Like or Heart Icon' className='like-2' />
+                        <div className='two-icons-bottom-3'>
+                            <img src={cart} alt='Shopping Cart Icon' className='shopping-cart-3' />
+                            <img src={like} alt='Like or Heart Icon' className='like-3' />
                         </div>
                         <div className='price-2'>
                             <button type="button">$2.50</button>
