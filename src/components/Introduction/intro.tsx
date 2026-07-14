@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '../Text/Text'
-import coffeeTwoHearts from '../../assets/coffee-two-hearts.png'
+import coffeeTwoHearts from '../../assets/two-hearts-coffee.png'
 import coffeeMini from '../../assets/coffee-mini-icon.png'
 import latteMini from '../../assets/latte-mini-icon.png'
 import teaMini from '../../assets/tea-mini-icon.png'
@@ -13,7 +13,7 @@ export const Intro = () => {
                 <Text variant="h1">Coffee</Text>
                 <Text variant="h1">The Best For You</Text>
 
-                <div id='button'>
+                <div id='view-menu-main'>
                     <button type="button">View Menu</button>
                 </div>
 

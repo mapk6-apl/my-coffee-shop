@@ -17,7 +17,7 @@ body::before {
   background-position: center;
   opacity: 0.3;
   z-index: -1;
-  filter: blur(8px);
+  filter: blur(18px);
 }
 
 .navbar-container {
@@ -26,12 +26,14 @@ body::before {
   align-items: center;
   /*padding: 20px 5%;*/
   color: #260D0B;
+  position: relative;
+  z-index: 10;
 }
 
 .links a {
   margin-left: 25px;
   text-decoration: none;
-  font-weight: 100;
+  font-weight: 500;
   color: #260D0B;
 }
 
@@ -45,13 +47,11 @@ body::before {
 #coffee-shop{
   border: solid 5px #260D0B;
   border-radius: 30px;
-  padding: 5px 30px;
+  padding: 8px 20px;
   font-size: 14px;
   background-color: #260D0B;
   color: #fff;
   cursor: pointer;
-  height: 45px;
-  width: 180px;
 }
 
 #logo-text {
@@ -94,8 +94,9 @@ body::before {
 #left-content h1 {
   margin: 0;
   padding: 0;
-  font-size: 35px;
+  font-size: 55px;
   line-height: 1.2;
+
 }
 
 #two-heart-coffee-image {
@@ -107,21 +108,22 @@ body::before {
 }
 
 #two-heart-coffee-image img {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
-
+  margin-top: 80px;
 }
 
-#button button {
+#view-menu-main button{
   margin-top: 30px;
   border: solid 5px #260D0B;
-  border-radius: 25px;
-  padding: 10px 50px;
+  border-radius: 45px;
+  padding: 14px 70px;
   font-size: 14px;
   background-color: #260D0B;
   color: #fff;
   cursor: pointer;
+  box-shadow: 15px 10px 15px 6px rgba(38, 13, 11, 0.3);
 }
 
 #mini-icons {
