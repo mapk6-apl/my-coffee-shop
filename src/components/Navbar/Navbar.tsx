@@ -1,6 +1,5 @@
 import React from 'react'
 import { Text } from '../Text/Text'
-import { ContentContainer } from '../../ContentContainer'
 import coffeeLogo from '../../assets/coffee-logo.png'
 
 export const Navbar = () => {
