@@ -7,13 +7,13 @@ import americano from '../../assets/americano.png'
 import cappuccino from '../../assets/coffee-teddy.png'
 import cart from '../../assets/shopping-cart.png'
 import like from '../../assets/heart.png'
-import coffeeBeans from '../../assets/coffee-beans.png'
+import coffeeBeans from '../../assets/coffee-and-beans.png'
 import backArrow from '../../assets/left.png'
 import { Text } from '../Text/Text'
 import home from '../../assets/home.png'
 import profile from '../../assets/people.png'
 import hamburger from '../../assets/text-align.png'
-import coffeeSingleHeart from '../../assets/coffee-single-heart.png'
+import coffeeSingleHeart from '../../assets/coffee-single-heart2.png'
 import plusIcon from '../../assets/add.png'
 import appStore from '../../assets/apple-logo.png'
 import googlePlay from '../../assets/playstore.png'
@@ -23,9 +23,9 @@ export const Demo = () => {
     return (
         <div className='app-demo'>
             <div id='menu-container'>
-                <img src={backArrow} alt="Back arrow" />
+                <img src={backArrow} alt="Back arrow" id='back-arrow' />
                 <Text variant='h3'>Coffee</Text>
-                <button type="button" id='view-menu-button'>View Menu</button>
+                <button type="button" id='view-menu-button-small'>View Menu</button>
                 <div id='mini-icons'>
                     <div id='mini-icon'>
                         <img src={coffeeMini} alt="Mini Coffee Icon" id='coffee-mini' />
@@ -79,10 +79,10 @@ export const Demo = () => {
                 </div>
 
                 <div id='buttons-container'>
-                    <img src={home} alt='Home Icon' className='single-bottom-icon' />
-                    <img src={cart} alt='Cart Icon' className='single-bottom-icon' />
-                    <img src={profile} alt='Profile Icon' className='single-bottom-icon' />
-                    <img src={hamburger} alt='Hamburger Menu Icon' className='single-bottom-icon' />
+                    <a href="#"><img src={home} alt='Home Icon' className='single-bottom-icon' /></a>
+                    <a href="#"><img src={cart} alt='Cart Icon' className='single-bottom-icon' /></a>
+                    <a href="#"><img src={profile} alt='Profile Icon' className='single-bottom-icon' /></a>
+                    <a href="#"><img src={hamburger} alt='Hamburger Menu Icon' className='single-bottom-icon' /></a>
                 </div>
             </div>
 
@@ -90,13 +90,18 @@ export const Demo = () => {
             <div id='big-menu-container'>
                 <img src={backArrow} alt="Back arrow" id='back-arrow' />
                 <img src={coffeeSingleHeart} alt='Coffee With one Heart' id='coffee-one-heart' />
-                <Text variant='h3'>Latte Grand</Text>
-                <Text variant='p'>Our Grande Latte is a 473ml espresso beverage made with 2 shots of espresso and approximately 12 to 14 ounces of steamed milk and a light layer of foam.</Text>
-                <Text variant='p'>Total Price</Text>
-
+                <div id='big-menu-text'>
+                    <Text variant='h3'>Latte Grand</Text>
+                    <Text variant='p'>Our Grande Latte is a 473ml espresso beverage made with 2 shots of espresso and approximately 12 to 14 ounces of steamed milk and a light layer of foam.
+                        Expertly crafted for a smooth, velvety texture, this classic cafe favorite delivers a comforting warmth and a perfectly balanced espresso flavor in every single sip.
+                    </Text>
+                </div>
+                <div id='big-menu-text-2'>
+                    <Text variant='p'>Total Price</Text>
+                </div>
                 <div id='total-price'>
                     <Text variant='p'>$3.50</Text>
-                    <img src={like} alt='Like or Heart Icon' className='like-3' />
+                    <img src={like} alt='Like or Heart Icon' className='like' />
                     <div id='add-to-cart-section'>
                         <button type="button">Add to Cart</button>
                         <img src={plusIcon} alt='Add Icon' className='add-icon' />
@@ -106,7 +111,9 @@ export const Demo = () => {
 
             <div id='app-availability'>
                 <Text variant='h2'>App is Available</Text>
-                <Text variant='p'>Our app is available for download on Apple's App Store and Google's Play Store.</Text>
+                <Text variant='p'>Our app is available for download on Apple's App Store and Google's Play Store.
+                    Simply tap the links below to download the app instantly, create your profile, and start earning loyalty rewards today.
+                </Text>
                 <div id='app-download'>
                     <img src={appStore} alt='Apple Icon' className='apple-icon' />
                     <img src={googlePlay} alt='Google Play Store' className='google-icon' />

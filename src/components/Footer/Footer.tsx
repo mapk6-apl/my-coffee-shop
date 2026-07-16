@@ -37,7 +37,7 @@ export const Footer = () => {
                     <Text variant="h2">Address</Text>
                     <Text variant="p">Email: info@flavoredcoffee.com</Text>
                     <Text variant="p">Tel: 012 345 6789</Text>
-                    <Text variant="p">Website: </Text>
+                    <Text variant="p">Website: mjscoffeeshop.netlify.app</Text>
                 </div>
             </div>
         </div>

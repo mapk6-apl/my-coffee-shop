@@ -15,9 +15,9 @@ body::before {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: -1;
-  filter: blur(18px);
+  filter: blur(20px);
 }
 
 .navbar-container {
@@ -78,7 +78,7 @@ body::before {
 
 .intro-content {
   display: flex;
-  margin-top: 100px;
+  margin-top: 150px;
   justify-content: space-between;
   width: 100%;
   gap: 20px;
@@ -126,6 +126,7 @@ body::before {
   box-shadow: 15px 10px 15px 6px rgba(38, 13, 11, 0.3);
 }
 
+
 #mini-icons {
   display: flex;
   gap: 20px;
@@ -153,7 +154,7 @@ body::before {
 .learn-more-content {
   display: flex;
   gap: 25px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #two-icons-bottom {
@@ -161,12 +162,12 @@ body::before {
   width: 20px;
   height: 20px;
   gap: 5px;
-  margin-top: auto;
+  margin-left: 10px;
   margin-bottom: 25px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 #two-icons-bottom img {
@@ -184,7 +185,7 @@ body::before {
   padding: 20px;
   margin-top: 100px;
   position: relative;
-  width: 300px;
+  width: 500px;
   height: 250px;
   box-sizing: border-box;
   display: flex;
@@ -212,7 +213,7 @@ body::before {
   margin-top: 8px;
   margin-bottom: 3px;
   color: #260D0B;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .shopping-cart {
@@ -241,7 +242,7 @@ body::before {
 #price {
   position: absolute;
   bottom: -5px;
-  left: 20px;
+  left: 50px;
 }
 
 #price button {
@@ -254,7 +255,7 @@ body::before {
   cursor: pointer;
   position: absolute;
   bottom: -20px;
-  left: 70px;
+  left: 40px;
 }
 
 #cappuccino-container {
@@ -264,7 +265,7 @@ body::before {
   padding: 20px;
   margin-top: 100px;
   position: relative;
-  width: 300px;
+  width: 500px;
   height: 250px;
   box-sizing: border-box;
   display: flex;
@@ -292,7 +293,7 @@ body::before {
   margin-top: 8px;
   margin-bottom: 3px;
   color: #260D0B;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #learn-more-info {
@@ -310,13 +311,15 @@ body::before {
 
 #learn-more button {
   margin-top: 30px;
-  border: solid 5px #260D0B;
+  border: none 1px #260D0B;
   border-radius: 25px;
-  padding: 5px 15px;
+  padding: 10px 20px;
   font-size: 14px;
   background-color: #260D0B;
   color: #fff;
   cursor: pointer;
+  background-image: linear-gradient(to right, #260D0B, #8C5620);
+  font-weight: bold;
 }
 
 .more-info {
@@ -328,47 +331,53 @@ body::before {
 
 #coffee-spilled-beans img {
   width: 500px;
-  height: 300px;
+  height: 460px;
   max-width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  margin-top: -200px;
+  margin-top: -220px;
   margin-left: 600px;
   position: relative;
 }
 
 #coffee-spilled-beans h3 {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   border: solid 1px transparent;
-  border-radius: 14px;
+  border-radius: 20px;
   font-size: 12px;
-  padding: 8px;
+  padding: 18px;
   width: 30px;
   height: 30px;
   margin: 22px;
   object-fit: cover;
   align-content: center;
   position: absolute;
-  right: 220px;
-  bottom: -320px;
+  right: 195px;
+  bottom: -680px;
 }
 
 .app-demo {
   display: flex;
   flex-direction: row;
-  gap: 70px;
-  padding-top: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 #menu-container {
-  padding: 20px;
+  padding: 24px;
   border: solid 1px transparent;
-  background-color: rgba(255, 255, 255, 0.7);
-  display: flex;
-  flex-direction: column;
-  width: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 340px;
+  height: 700px;
   border-radius: 30px;
+  box-sizing: border-box;
+  overflow: visible;
 }
 
 
@@ -376,17 +385,6 @@ body::before {
   width: 20px;
 }
 
-/*#menu-container button {
-  border: solid 5px #260D0B;
-  border-radius: 20px;
-  padding: 5px 30px;
-  font-size: 14px;
-  background-color: #260D0B;
-  color: #fff;
-  cursor: pointer;
-  bottom: -20px;
-  left: 70px;
-}*/
 
 #view-menu-button {
   border: solid 5px #260D0B;
@@ -401,14 +399,28 @@ body::before {
 
 }
 
-#big-menu-container {
-  padding: 20px;
-  border: solid 1px transparent;
-  background-color: rgba(255, 255, 255, 0.7);
-  display: flex;
-  flex-direction: column;
-  width: 400px;
+#view-menu-button-small {
+  border: solid 5px #260D0B;
   border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 14px;
+  background-color: #260D0B;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 160px;
+
+}
+
+#big-menu-container {
+  padding: 24px;
+  border: solid 1px transparent;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 340px;
+  height: 700px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  overflow: visible;
 }
 
 #back-arrow {
@@ -419,11 +431,11 @@ body::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 45px;
-  background-color: rgba(225, 212, 212, 0.7);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
   border: solid 1px none;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 #mini-icons {
@@ -434,40 +446,50 @@ body::before {
   background-color: #260D0B;
   border-radius: 30px;
   height: 45px;
-  margin-top: 30px;
+  margin-top: 8px;
   display: flex;
-  gap: 90px;
-  padding: 10px;
+  gap: 60px;
+  padding: 4px;
+  padding-left: 30px;
+}
+
+#buttons-container a:hover {
+  cursor: pointer;
+  background-color:silver;
+  border-style: groove;
+  border-color: #fff;
+  border-radius: 8px;
 }
 
 #buttons-container img {
   filter: invert(99%) sepia(0%) saturate(1314%) hue-rotate(334deg) brightness(109%) contrast(100%);
   height: 20px;
   align-content: center;
-  margin: 2px;
+  margin: -3px;
   padding-top: 8px;
 }
 
 .single-bottom-icon {
-  gap: 10px;
+  gap: 5px;
 }
 
 .learn-more-content-2 {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  width: 100%;
+  margin-top: -42px;
+
 }
 
 #americano-container-2 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border: solid 1px transparent;
   border-radius: 30px;
   padding: 5px;
   margin-top: 100px;
   position: relative;
-  width: 230px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -484,14 +506,14 @@ body::before {
 }
 
 #cappuccino-container-2 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border: solid 1px transparent;
   border-radius: 30px;
   padding: 5px;
   margin-top: 100px;
   position: relative;
-  width: 230px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -508,22 +530,23 @@ body::before {
 }
 
 #americano2 {
-  height: 160px;
-  width: 160px;
-  object-fit: contain;
+  height: 90px;
+  width: 90px;
+  min-width: 90px;
   position: absolute;
-  top: -80px;
+  object-fit: cover;
+  top: -45px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 #cappuccino-2 {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  object-fit: contain;
+  height: 90px;
+  width: 90px;
+  min-width: 90px;
   position: absolute;
-  top: -80px;
+  object-fit: cover;
+  top: -45px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -565,8 +588,8 @@ body::before {
 
 .two-icons-bottom-2 img {
   display: flex;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   gap: 15px;
   cursor: pointer;
 }
@@ -597,37 +620,39 @@ body::before {
   display: flex;
   width: 20px;
   height: 20px;
+  gap: 5px;
   margin-top: auto;
   margin-bottom: 25px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .two-icons-bottom-3 img {
-  width: 14px;
-  height: 14px;
-  gap: 30px;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  gap: -15px;
   cursor: pointer;
 }
 
 .price-2 {
   position: absolute;
   bottom: -5px;
-  left: 20px;
+  left: 5px;
 }
 
 .price-2 button {
   border: solid 5px #260D0B;
   border-radius: 15px;
-  padding: 5px 30px;
+  padding: 5px 15px;
   font-size: 8px;
   background-color: #260D0B;
   color: #fff;
   cursor: pointer;
   position: absolute;
-  bottom: -20px;
+  bottom: -15px;
   left: 30px;
 }
 
@@ -636,7 +661,7 @@ body::before {
   border: solid 1px transparent;
   border-radius: 20px;
   padding: 5px;
-  margin-top: 70px;
+  margin-top: 40px;
   position: relative;
   width: 200px;
   height: 100px;
@@ -649,22 +674,24 @@ body::before {
 .more-info-2 p {
   font-size: 10px;
   margin-top: -8px;
+  margin-left: 2px;
 }
 
 .more-info-2 h3 {
-  font-size: 18px;
-  padding-top: 4px;
+  font-size: 14px;
+  padding-top: 2px;
+  margin-left: 2px;
 }
 
 #coffee-spilled-beans-2 img {
-  width: 350px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   max-width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   margin-top: -150px;
-  margin-left: 150px;
+  margin-left: 220px;
   position: relative;
   padding-top: 20px;
 }
@@ -673,14 +700,28 @@ body::before {
   margin-top: -8px;
 }
 
+#big-menu-text{
+  margin-top: -70px;
+  font-size: small;
+}
+
+#big-menu-text-2{
+  padding-top: 8px;
+  font-size: 14px;
+}
+
 #coffee-one-heart {
-  margin-top: 20px;
-  width: 550px;
+  margin-top: -22px;
+  width: 500px;
+  height: 500px;
+  margin-left: -110px;
 }
 
 #total-price {
   display: flex;
   flex-direction: row;
+  margin-top: -18px;
+  margin-left: -10px;
 }
 
 #total-price p {
@@ -713,13 +754,14 @@ body::before {
 #add-to-cart-section button {
   background-color: #260D0B;
   border-radius: 30px;
-  height: 45px;
-  width: 200px;
+  height: 38px;
+  width: 155px;
   color: #fff;
   align-items: center;
-  padding-left: 50px;
-  margin-left: 90px;
+  padding-left: 25px;
+  margin-left: 20px;
   position: relative;
+  margin-top: 15px;
 }
 
 .like-3 {
@@ -727,15 +769,14 @@ body::before {
   border: solid 1px transparent;
   border-radius: 10px;
   padding: 6px;
-  width: 50px;
-  height: 25px;
-  margin: 20px;
+  width: 12px;
+  height: 12px;
   object-fit: contain;
   cursor: pointer;
 }
 
 .add-icon {
-  background-color: rgba(225, 212, 212, 0.7);
+  background-color: rgba(73, 47, 41, 0.2);
   border: solid 1px transparent;
   border-radius: 50px;
   padding: 6px;
@@ -745,26 +786,34 @@ body::before {
   object-fit: contain;
   cursor: pointer;
   position: absolute;
-  right: 330px;
+  right: 460px;
+  bottom: -1708px;
+  filter: brightness(0) invert(1);
 }
 
 .apple-icon,
 .google-icon {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   border: solid 1px transparent;
-  border-radius: 10px;
-  padding: 6px;
-  width: 50px;
-  height: 25px;
-  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40px;
+  height: 35px;
   object-fit: contain;
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
 }
 
 #app-availability {
-  padding-top: 500px;
+  padding-top: 150px;
+  position: relative;
+  padding-left: 5px;
+}
+
+#app-download{
+  display: flex;
+  flex-direction: row;
+  margin-left: -5px;
+  gap: 15px;
 }
 
 .reservations{
@@ -794,6 +843,7 @@ body::before {
   cursor: pointer;
   height: 45px;
   width: 180px;
+  box-shadow: 15px 10px 15px 6px rgba(38, 13, 11, 0.3);
 }
 
 .footer-content {
@@ -804,15 +854,15 @@ body::before {
 #spilled-beans {
   position: absolute;
   width: 200px;
-  bottom: -120px;
-  left: -80px;
+  bottom: -150px;
+  left: -150px;
 }
 
 .footer{
   display: flex;
   flex-direction: row;
-  gap: 100px;
-  margin-left: 70px;
+  gap: 90px;
+  margin-left: 40px;
 }
 
 #logo-text-2 {
@@ -844,4 +894,13 @@ body::before {
   color: #fff;
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
