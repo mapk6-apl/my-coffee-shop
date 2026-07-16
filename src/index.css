@@ -44,7 +44,7 @@ body::before {
   text-underline-offset: 10px;
 }
 
-#coffee-shop{
+#coffee-shop {
   border: solid 5px #260D0B;
   border-radius: 30px;
   padding: 8px 20px;
@@ -114,7 +114,7 @@ body::before {
   margin-top: 80px;
 }
 
-#view-menu-main button{
+#view-menu-main button {
   margin-top: 30px;
   border: solid 5px #260D0B;
   border-radius: 45px;
@@ -455,7 +455,7 @@ body::before {
 
 #buttons-container a:hover {
   cursor: pointer;
-  background-color:silver;
+  background-color: silver;
   border-style: groove;
   border-color: #fff;
   border-radius: 8px;
@@ -700,12 +700,12 @@ body::before {
   margin-top: -8px;
 }
 
-#big-menu-text{
+#big-menu-text {
   margin-top: -70px;
   font-size: small;
 }
 
-#big-menu-text-2{
+#big-menu-text-2 {
   padding-top: 8px;
   font-size: 14px;
 }
@@ -809,14 +809,14 @@ body::before {
   padding-left: 5px;
 }
 
-#app-download{
+#app-download {
   display: flex;
   flex-direction: row;
   margin-left: -5px;
   gap: 15px;
 }
 
-.reservations{
+.reservations {
   margin-top: 100px;
 }
 
@@ -858,7 +858,7 @@ body::before {
   left: -150px;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   gap: 90px;
@@ -890,17 +890,80 @@ body::before {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(104%) contrast(102%);
 }
 
-#horizontal-divider{
+#horizontal-divider {
   color: #fff;
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
-@media screen and (max-width: 768px){
-  .navbar-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+@media (max-width: 768px) {
+
+  .intro-content,
+  .learn-more-content,
+  .app-demo{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  #left-content {
     align-items: center;
   }
+
+  #left-content h1 {
+    font-size: 32px;
+  }
+
+  #two-heart-coffee-image {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+
+  #two-heart-coffee-image img {
+    width: 280px;
+    height: 280px;
+    margin-top: 0;
+  }
+
+
+  #mini-icons {
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  #view-menu-main button {
+    width: 100%;
+    max-width: 280px;
+    padding: 14px;
+    margin-top: 20px;
+  }
+
+  #americano-container,
+  #cappuccino-container {
+    width: 300px;
+  }
+
+  .more-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 40px;
+    position: relative;
+  }
+
+  #coffee-spilled-beans img {
+    width: 500px;
+    height: 460px;
+    margin-top: -220px;
+    margin-left: 600px;
+    position: absolute;
+  }
+  
 }
