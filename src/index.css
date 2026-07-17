@@ -20,6 +20,15 @@ body::before {
   filter: blur(20px);
 }
 
+.content-container {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 80px;
+  margin: 70px;
+  padding: 110px;
+  box-sizing: border-box;
+  width: calc(100% - 140px);
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -900,12 +909,17 @@ body::before {
 
   .intro-content,
   .learn-more-content,
-  .app-demo{
+  .app-demo {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 50px;
     gap: 40px;
+  }
+
+  .learn-more-content {
+    margin-bottom: 80px;
   }
 
   #left-content {
@@ -923,7 +937,6 @@ body::before {
     margin-top: 0;
   }
 
-
   #two-heart-coffee-image img {
     width: 280px;
     height: 280px;
@@ -936,7 +949,6 @@ body::before {
     width: 100%;
   }
 
-
   #view-menu-main button {
     width: 100%;
     max-width: 280px;
@@ -947,23 +959,149 @@ body::before {
   #americano-container,
   #cappuccino-container {
     width: 300px;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+  }
+
+  .price-2 {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .price-2 button {
+    position: static;
+    border: none;
+    margin: 0;
   }
 
   .more-info {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 50px;
-    gap: 40px;
+    gap: 25px;
+  }
+
+  #coffee-spilled-beans {
     position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    width: auto;
+    max-width: 320px;
   }
 
   #coffee-spilled-beans img {
-    width: 500px;
-    height: 460px;
-    margin-top: -220px;
-    margin-left: 600px;
+    position: static;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
+
+  #coffee-spilled-beans h3 {
     position: absolute;
+    bottom: 150px;
+    right: -10px;
+    height: 25px;
+    width: 25px;
+    transform: translateX(-50%);
+  }
+
+  #back-arrow {
+    width: 20px;
+    margin-right: 100%;
+  }
+
+  #app-download {
+    gap: 20px;
+
+  }
+
+  .apple-icon {
+    margin-left: 20%;
+  }
+
+  #reservations-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #reservations-2 h2 {
+    font-size: 20px;
+  }
+
+  #reservations-2 button {
+    font-size: 20px;
+    margin-left: -400px;
+    font-size: 14px;
+    margin-top: 60px;
+    padding-top: 2px;
+  }
+
+  .footer-content {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0;
+    overflow: visible;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+
+  .footer-left{
+
   }
   
+  #our-services,
+  #our-company,
+  #address {
+    flex: 1 1 180px;
+    min-width: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #logo-text-2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .content-container {
+    border-radius: 40px;
+    margin: 15px;
+    padding: 30px 15px;
+    width: calc(100% - 30px);
+  }
+
+  #spilled-beans {
+    position: absolute;
+    bottom: -60px;
+    left: -45px;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    z-index: 1;
+    display: block;
+  }
+
 }
