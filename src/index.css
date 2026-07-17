@@ -905,6 +905,11 @@ body::before {
   margin-top: 20px;
 }
 
+
+.hamburger-menu {
+  display: none;
+}
+
 @media (max-width: 768px) {
 
   .intro-content,
@@ -1065,10 +1070,8 @@ body::before {
     gap: 20px;
   }
 
-  .footer-left{
+  .footer-left {}
 
-  }
-  
   #our-services,
   #our-company,
   #address {
@@ -1079,7 +1082,7 @@ body::before {
     flex-direction: column;
   }
 
-  #logo-text-2{
+  #logo-text-2 {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1093,6 +1096,7 @@ body::before {
     width: calc(100% - 30px);
   }
 
+
   #spilled-beans {
     position: absolute;
     bottom: -60px;
@@ -1102,6 +1106,31 @@ body::before {
     object-fit: contain;
     z-index: 1;
     display: block;
+  }
+
+  .hamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #fff;
+    padding: 15px;
+    z-index: 10;
+  }
+
+  .links.active{
+    display: flex;
   }
 
 }
