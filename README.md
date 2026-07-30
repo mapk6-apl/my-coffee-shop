@@ -18,7 +18,7 @@ A clean and simple coffee shop website that allows customers to browse through o
 *   **Various Menus:** The website contains different coffee menus that customers can choose from.
 *   **Floating Coffee Images:** Each coffee menu has a floating image that shows the exact coffee being described.
 *   **Join Us:** Customers can join our coffee family by clicking the learn more button.
-*   **Embedded Mini Website:** The website has two mini website previews of the overall website that shows customers the overall app.
+*   **Embedded Mini Website:** The website has two mini app previews that shows customers what the app looks like.
 *   **App Availability:** Customers can click the Apple or Google Play Store icons if they want to download the app instantly.
 *   **Reserve a Table:** Customers can click the Contact Now button if they would like to reserve a table and keep in touch with us.
 
@@ -59,5 +59,5 @@ npm run build
 ---
 
 ## 📝 Credits
-Copyright © 2026 Flavored Coffee Shop App. All rights reserved.  
+Copyright © 2026 Flavored Coffee Shop Website. All rights reserved.  
 No one may distribute or modify this code.
