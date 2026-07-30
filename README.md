@@ -1,75 +1,63 @@
-# React + TypeScript + Vite
+# ☕️ My Flavored Coffee Shop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple coffee shop website that allows customers to browse through our various coffee menus, to join our coffee family/community and to reserve a table in our shop.
 
-Currently, two official plugins are available:
+🚀 **Live Link:** [Click here to open my live app!](https://mjscoffeeshop.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 About The App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Flavored Coffee Shop website is a simple website that lets you shop your favourite coffees, place and track orders, and reserve tables too if you want to enjoy your coffee at our physical store. The app is clean, easy to use and works perfectly on both computers and mobile phones.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Cool Features on the Website
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*   **Background Image:** The website has a coffee image as its background, giving it a beautiful and unique style.
+*   **Various Menus:** The website contains different coffee menus that customers can choose from.
+*   **Floating Coffee Images:** Each coffee menu has a floating image that shows the exact coffee being described.
+*   **Join Us:** Customers can join our coffee family by clicking the learn more button.
+*   **Embedded Mini Website:** The website has two mini website previews of the overall website that shows customers the overall app.
+*   **App Availability:** Customers can click the Apple or Google Play Store icons if they want to download the app instantly.
+*   **Reserve a Table:** Customers can click the Contact Now button if they would like to reserve a table and keep in touch with us.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tools Used to Build It
 
+*   **React & TypeScript:** The code structure used to build the interface and components safely.
+*   **Vite:** The modern development tool that makes coding and running the app locally super fast.
+*   **Custom CSS:** Built from scratch to handle all layout arrangements, colors, and styling rules.
+*   **Netlify:** Holds the live website online so anyone can use it from their phone or computer.
+
+---
+
+## 🚀 How to Run the App Locally on Your Computer
+
+Follow these quick steps to get the app running on your computer:
+
+### 1. Install Dependencies
+Download this project, unzip it, then open your terminal inside the project root folder and run this command to download the required code packages:
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+### 2. Run the Development Server
+Start up the app on your local computer by running:
+```bash
+npm run dev
 ```
+*Once running, open the `http://localhost` link provided in your terminal to see your website!*
+
+### 3. Build for Production
+When your site is complete, run this command to optimize and pack your files for a real server:
+```bash
+npm run build
+```
+
+---
+
+## 📝 Credits
+Copyright © 2026 Flavored Coffee Shop App. All rights reserved.
+No one may distribute or modify this code.
