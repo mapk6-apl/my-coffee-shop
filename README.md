@@ -8,7 +8,7 @@ A clean and simple coffee shop website that allows customers to browse through o
 
 ## 📖 About The App
 
-> Flavored Coffee Shop website is a simple website that lets you shop your favourite coffees, place and track orders, and reserve tables too if you want to enjoy your coffee at our physical store. The app is clean, easy to use and works perfectly on both computers and mobile phones.
+> Flavored Coffee Shop website is a simple website that lets you shop your favourite coffees, place and track orders, and reserve tables too if you want to enjoy your coffee at our physical store. The website is clean, easy to use and works perfectly on both computers and mobile phones.
 
 ---
 
@@ -27,9 +27,9 @@ A clean and simple coffee shop website that allows customers to browse through o
 ## 🛠️ Tools Used to Build It
 
 *   **React & TypeScript:** The code structure used to build the interface and components safely.
-*   **Vite:** The modern development tool that makes coding and running the app locally super fast.
-*   **Custom CSS:** Built from scratch to handle all layout arrangements, colors, and styling rules.
-*   **Netlify:** Holds the live website online so anyone can use it from their phone or computer.
+*   **Vite:** The modern development tool that makes coding and running the website locally super fast.
+*   **Custom CSS:** Built from scratch to handle all layout arrangements, colours, and styling rules.
+*   **Netlify:** Hosts the live website online so anyone can use it from their phone or computer.
 
 ---
 
