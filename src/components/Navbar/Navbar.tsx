@@ -25,7 +25,6 @@ export const Navbar = () => {
                 {isMenuOpen ? 'x' : '☰'}
             </button>
 
-            {isMenuOpen && (
                 <div className='links'>
                     <a href="#" onClick={toggleMenu}> Home</a>
                     <a href="#" onClick={toggleMenu}>Coffee Menu</a>
@@ -33,7 +32,6 @@ export const Navbar = () => {
                     <a href="#" onClick={toggleMenu}>Contact Us</a>
                     <a href="#" id='coffee-shop' onClick={toggleMenu}>Coffee Shop</a>
                 </div>
-            )}
 
         </nav>
     )

@@ -1119,7 +1119,6 @@ body::before {
   }
 
   .links {
-    display: none;
     flex-direction: column;
     position: absolute;
     top: 70px;
