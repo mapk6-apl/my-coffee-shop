@@ -59,5 +59,5 @@ npm run build
 ---
 
 ## 📝 Credits
-Copyright © 2026 Flavored Coffee Shop App. All rights reserved.
+Copyright © 2026 Flavored Coffee Shop App. All rights reserved.  
 No one may distribute or modify this code.
