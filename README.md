@@ -1,4 +1,4 @@
-# ☕️ My Flavored Coffee Shop App
+# ☕️ My Flavored Coffee Shop Website
 
 A clean and simple coffee shop website that allows customers to browse through our various coffee menus, to join our coffee family/community and to reserve a table in our shop.
 
