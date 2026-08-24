@@ -42,28 +42,25 @@ A clean and simple coffee shop website that allows customers to browse through o
 
 ---
 
-## 🚀 How to Run the App Locally on Your Computer
+## ⚙️ How to Run It on Your Computer
 
-Follow these quick steps to get the app running on your computer:
+If you want to download this project and run it on your own machine, open your computer terminal and type these quick steps:
 
-### 1. Install Dependencies
-Download this project, unzip it, then open your terminal inside the project root folder and run this command to download the required code packages:
-```bash
-npm install
-```
+1. **Clone the folder and enter it:**
+   ```bash
+   git clone https://github.com/mapk6-apl/my-coffee-shop/
+   cd my-coffee-shop
+   ```
 
-### 2. Run the Development Server
-Start up the app on your local computer by running:
-```bash
-npm run dev
-```
-*Once running, open the `http://localhost` link provided in your terminal to see your website!*
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### 3. Build for Production
-When your site is complete, run this command to optimize and pack your files for a real server:
-```bash
-npm run build
-```
+3. **Start the local server:**
+   ```bash
+   npm run dev
+   ```
 
 ---
 
