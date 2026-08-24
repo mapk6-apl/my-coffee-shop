@@ -12,6 +12,15 @@ A clean and simple coffee shop website that allows customers to browse through o
 
 ---
 
+## 📸 App Screenshots
+
+<img width="946" height="608" alt="coffee_shop_hero_section" src="https://github.com/user-attachments/assets/b3fcccb8-30cb-49a6-9348-412d0673646b" />
+<img width="930" height="695" alt="coffee_shop_main_section" src="https://github.com/user-attachments/assets/d5be56fc-c383-4d36-9433-ad7e2bb1515a" />
+<img width="940" height="696" alt="coffee_shop_mini_app_section" src="https://github.com/user-attachments/assets/a950479d-65b8-497e-824c-2166b9b378ba" />
+<img width="945" height="598" alt="coffee_shop_footer_section" src="https://github.com/user-attachments/assets/d32e1991-cbbe-44bc-b152-fe86feca6b78" />
+
+---
+
 ## ✨ Cool Features on the Website
 
 *   **Background Image:** The website has a coffee image as its background, giving it a beautiful and unique style.
