@@ -1,4 +1,3 @@
-import React from 'react'
 import spilledCoffeeBeans from '../../assets/coffee-beans-spilled.png'
 import coffeeLogo from '../../assets/coffee-logo.png'
 import { Text } from '../Text/Text'

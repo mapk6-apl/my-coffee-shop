@@ -1,4 +1,3 @@
-import React from 'react'
 import americano from '../../assets/americano.png'
 import cappuccino from '../../assets/coffee-teddy.png'
 import { Text } from '../Text/Text'

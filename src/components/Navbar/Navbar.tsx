@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Text } from '../Text/Text'
 import coffeeLogo from '../../assets/coffee-logo.png'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Text } from '../Text/Text'
 import coffeeTwoHearts from '../../assets/two-hearts-coffee.png'
 import coffeeMini from '../../assets/coffee-mini-icon.png'

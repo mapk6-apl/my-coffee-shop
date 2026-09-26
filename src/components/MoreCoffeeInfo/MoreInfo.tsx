@@ -1,4 +1,3 @@
-import React from 'react'
 import { Text } from '../Text/Text'
 import coffeeBeans from '../../assets/coffee-and-beans.png'
 export const MoreInfo = () => {

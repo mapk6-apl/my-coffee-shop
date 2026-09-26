@@ -1,4 +1,3 @@
-import React from 'react'
 import coffeeMini from '../../assets/coffee-mini-icon.png'
 import latteMini from '../../assets/latte-mini-icon.png'
 import teaMini from '../../assets/tea-mini-icon.png'
