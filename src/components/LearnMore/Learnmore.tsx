@@ -7,7 +7,7 @@ import like from '../../assets/heart.png'
 
 export const Learnmore = () => {
   return (
-    <div className='learn-more-content'>
+    <div id='coffee-menu' className='learn-more-content'>
         <div id='americano-container'>
             <img src={americano} alt='Americano Info' id='americano'/>
             <Text variant='h3'>Americano</Text>

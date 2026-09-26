@@ -25,12 +25,12 @@ export const Navbar = () => {
                 {isMenuOpen ? 'x' : '☰'}
             </button>
 
-                <div className='links'>
-                    <a href="#" onClick={toggleMenu}> Home</a>
-                    <a href="#" onClick={toggleMenu}>Coffee Menu</a>
-                    <a href="#" onClick={toggleMenu}>About Us</a>
-                    <a href="#" onClick={toggleMenu}>Contact Us</a>
-                    <a href="#" id='coffee-shop' onClick={toggleMenu}>Coffee Shop</a>
+                <div id='primary-navigation' className={`links${isMenuOpen ? ' active' : ''}`}>
+                    <a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a>
+                    <a href="#coffee-menu" onClick={() => setIsMenuOpen(false)}>Coffee Menu</a>
+                    <a href="#about-us" onClick={() => setIsMenuOpen(false)}>About Us</a>
+                    <a href="#contact-us" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
+                    <a href="#coffee-shop" className='coffee-shop-link' onClick={() => setIsMenuOpen(false)}>Coffee Shop</a>
                 </div>
 
         </nav>

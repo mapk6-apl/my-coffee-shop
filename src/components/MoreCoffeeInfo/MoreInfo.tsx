@@ -3,7 +3,7 @@ import { Text } from '../Text/Text'
 import coffeeBeans from '../../assets/coffee-and-beans.png'
 export const MoreInfo = () => {
     return (
-        <div className='more-info'>
+        <div id='about-us' className='more-info'>
             <Text variant='h2'>The Best In Town?</Text>
             <Text variant='p'>Want to join our coffee family? Click the button below to learn more about us.</Text>
             <div id='learn-more'>

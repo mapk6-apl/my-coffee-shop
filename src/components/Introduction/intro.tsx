@@ -8,7 +8,7 @@ import beanMini from '../../assets/bean-mini-icon.png'
 
 export const Intro = () => {
     return (
-        <div className='intro-content'>
+        <div id='home' className='intro-content'>
             <div id='left-content'>
                 <Text variant="h1">Coffee</Text>
                 <Text variant="h1">The Best For You</Text>

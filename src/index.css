@@ -53,7 +53,7 @@ body::before {
   text-underline-offset: 10px;
 }
 
-#coffee-shop {
+.links a.coffee-shop-link {
   border: solid 5px #260D0B;
   border-radius: 30px;
   padding: 8px 20px;
@@ -1119,6 +1119,7 @@ body::before {
   }
 
   .links {
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 70px;

@@ -21,7 +21,7 @@ import googlePlay from '../../assets/playstore.png'
 
 export const Demo = () => {
     return (
-        <div className='app-demo'>
+        <div id='coffee-shop' className='app-demo'>
             <div id='menu-container'>
                 <img src={backArrow} alt="Back arrow" id='back-arrow' />
                 <Text variant='h3'>Coffee</Text>

@@ -3,7 +3,7 @@ import { Text } from '../Text/Text'
 
 export const Reserve = () => {
     return (
-        <div className='reservations'>
+        <div id='contact-us' className='reservations'>
             <Text variant='h3'>LET'S TALK</Text>
             <div id='reservations-2'>
                 <Text variant='h2'>Want to Reserve a Table?</Text>
