@@ -3,8 +3,8 @@ import coffeeBeans from '../../assets/coffee-and-beans.png'
 export const MoreInfo = () => {
     return (
         <div id='about-us' className='more-info'>
-            <Text variant='h2'>The Best In Town?</Text>
-            <Text variant='p'>Want to join our coffee family? Click the button below to learn more about us.</Text>
+            <Text variant='h2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Text>
+            <Text variant='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
             <div id='learn-more'>
                 <button type="button">Learn More</button>
             </div>

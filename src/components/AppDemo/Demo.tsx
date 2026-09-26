@@ -57,7 +57,7 @@ export const Demo = () => {
                     <div id='cappuccino-container-2'>
                         <img src={cappuccino} alt='Cappuccino Info' id='cappuccino-2' />
                         <Text variant='h3'>Cappuccino</Text>
-                        <Text variant='p'>Coffee 50%, milk 50%, 280ml</Text>
+                        <Text variant='p'>Coffee 50%, milk 50%, 280 ml</Text>
                         <div className='two-icons-bottom-3'>
                             <img src={cart} alt='Shopping Cart Icon' className='shopping-cart-3' />
                             <img src={like} alt='Like or Heart Icon' className='like-3' />
@@ -91,9 +91,7 @@ export const Demo = () => {
                 <img src={coffeeSingleHeart} alt='Coffee With one Heart' id='coffee-one-heart' />
                 <div id='big-menu-text'>
                     <Text variant='h3'>Latte Grand</Text>
-                    <Text variant='p'>Our Grande Latte is a 473ml espresso beverage made with 2 shots of espresso and approximately 12 to 14 ounces of steamed milk and a light layer of foam.
-                        Expertly crafted for a smooth, velvety texture, this classic cafe favorite delivers a comforting warmth and a perfectly balanced espresso flavor in every single sip.
-                    </Text>
+                    <Text variant='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
                 </div>
                 <div id='big-menu-text-2'>
                     <Text variant='p'>Total Price</Text>
@@ -110,9 +108,7 @@ export const Demo = () => {
 
             <div id='app-availability'>
                 <Text variant='h2'>App is Available</Text>
-                <Text variant='p'>Our app is available for download on Apple's App Store and Google's Play Store.
-                    Simply tap the links below to download the app instantly, create your profile, and start earning loyalty rewards today.
-                </Text>
+                <Text variant='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
                 <div id='app-download'>
                     <img src={appStore} alt='Apple Icon' className='apple-icon' />
                     <img src={googlePlay} alt='Google Play Store' className='google-icon' />

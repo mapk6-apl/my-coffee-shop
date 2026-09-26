@@ -9,7 +9,7 @@ export const Reserve = () => {
                 <button type="button">Contact Now</button>
             </div>
             <hr id='horizontal-divider'/>
-            <Text variant='p'>If you would like to reserve a table, feel free to click the contact now button above to get in touch with us so we can make the reservations for you!</Text>
+            <Text variant='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
             
         </div>
     )

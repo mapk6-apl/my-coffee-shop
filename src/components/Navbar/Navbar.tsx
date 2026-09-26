@@ -29,7 +29,7 @@ export const Navbar = () => {
                     <a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a>
                     <a href="#coffee-menu" onClick={() => setIsMenuOpen(false)}>Coffee Menu</a>
                     <a href="#about-us" onClick={() => setIsMenuOpen(false)}>About Us</a>
-                    <a href="#contact-us" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
+                    <a href="#contact-us" onClick={() => setIsMenuOpen(false)}>Contact us</a>
                     <a href="#coffee-shop" className='coffee-shop-link' onClick={() => setIsMenuOpen(false)}>Coffee Shop</a>
                 </div>
 

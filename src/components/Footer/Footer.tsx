@@ -27,15 +27,14 @@ export const Footer = () => {
                 </div>
                 <div id='our-company'>
                     <Text variant="h2">Our Company</Text>
-                    <Text variant="p">About Us</Text>
-                    <Text variant="p">Our Team</Text>
-                    <Text variant="p">Careers/Jobs</Text>
-                    <Text variant="p">Partnerships</Text>
+                    <Text variant="p">Pricing</Text>
+                    <Text variant="p">Tracking</Text>
+                    <Text variant="p">Report a Bug</Text>
+                    <Text variant="p">Terms of Services</Text>
                 </div>
                 <div id='address'>
                     <Text variant="h2">Address</Text>
-                    <Text variant="p">Email: info@flavoredcoffee.com</Text>
-                    <Text variant="p">Tel: 012 345 6789</Text>
+                    <Text variant="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Text>
                     <Text variant="p">Website: <a href="https://mjscoffeeshop.netlify.app">mjscoffeeshop.netlify.app</a></Text>
                 </div>
             </div>

@@ -23,7 +23,7 @@ export const Learnmore = () => {
         <div id='cappuccino-container'>
             <img src={cappuccino} alt='Cappuccino Info' id='cappuccino'/>
             <Text variant='h3'>Cappuccino</Text>
-            <Text variant='p'>Coffee 50%, milk 50%, 280ml</Text>
+            <Text variant='p'>Coffee 50%, milk 50%, 280 ml</Text>
             <div id='two-icons-bottom'>
                 <img src={cart} alt='Shopping Cart Icon' className='shopping-cart'/>
                 <img src={like} alt='Like or Heart Icon' className='like'/>
@@ -34,8 +34,8 @@ export const Learnmore = () => {
         </div>
 
         <div id='learn-more-info'>
-            <Text variant='h2'>MJ's Coffee Shop</Text>
-            <Text variant='p'>Welcome to our coffee shop. Having the best in town, feel free to browse through our page to learn more about us.</Text>
+            <Text variant='h2'>Lorem Ipsum is simply dummy text of</Text>
+            <Text variant='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</Text>
             <div id='learn-more'>
                     <button type="button">Learn More</button>
             </div>
