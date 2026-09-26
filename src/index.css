@@ -795,8 +795,8 @@ body::before {
   object-fit: contain;
   cursor: pointer;
   position: absolute;
-  right: 460px;
-  bottom: -1708px;
+  right: 490px;
+  bottom: -1714px;
   filter: brightness(0) invert(1);
 }
 
